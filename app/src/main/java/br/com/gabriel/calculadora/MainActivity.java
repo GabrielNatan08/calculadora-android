@@ -1,11 +1,11 @@
 package br.com.gabriel.calculadora;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -103,10 +103,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 visor.setText(visor.getText().toString() + zero.getText());
                 break;
             }
-            case R.id.igual: {
-                visor.setText(visor.getText().toString() + igual.getText());
-                break;
-            }
             case R.id.correct: {
                 String view = visor.getText().toString();
                 if(view.equals(""))
@@ -134,6 +130,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.multiplicacao: {
                 visor.setText(visor.getText().toString() + multiplicacao.getText());
                 break;
+            }
+            case R.id.igual: {
+                Engine engine = new Engine();
+                visor.setText(engine.calc(visor.getText().toString()));
             }
         }
     }
