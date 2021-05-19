@@ -28,6 +28,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/sete"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -38,6 +39,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/oito"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -48,6 +50,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/nove"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -58,6 +61,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/adicao"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -74,6 +78,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/quatro"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -84,6 +89,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/cinco"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -94,6 +100,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/seis"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -104,6 +111,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/subtracao"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -120,6 +128,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/um"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -130,6 +139,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/dois"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -140,6 +150,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/tres"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -150,6 +161,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/divisao"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -166,6 +178,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/clean"
                 android:textColor="@android:color/holo_red_dark"
                 android:textSize="24sp" />
@@ -176,6 +189,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/zero"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -187,6 +201,7 @@
                 android:layout_height="55dp"
                 android:layout_weight="2"
                 android:background="@android:drawable/ic_input_delete"
+                android:padding="10dp"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 app:backgroundTint="?android:attr/colorPressedHighlight" />
@@ -197,6 +212,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/igual"
                 android:textColor="@android:color/holo_green_dark"
                 android:textSize="36sp" />
@@ -207,6 +223,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="2"
+                android:padding="10dp"
                 android:text="@string/multiplicacao"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
