@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button um, dois, soma, tres, quatro, cinco, seis, sete, oito, nove, zero;
+    private Button virgula, esquerda, direita;
     private Button adicao, subtracao, multiplicacao, divisao;
     private Button igual, correct, clean;
     private TextView visor;
@@ -38,6 +39,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         multiplicacao = findViewById(R.id.multiplicacao);
         divisao = findViewById(R.id.divisao);
         visor = findViewById(R.id.visor);
+        virgula = findViewById(R.id.virgula);
+        esquerda = findViewById(R.id.esquerda);
+        direita = findViewById(R.id.direita);
 
         um.setOnClickListener(this);
         dois.setOnClickListener(this);
@@ -56,6 +60,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         subtracao.setOnClickListener(this);
         divisao.setOnClickListener(this);
         multiplicacao.setOnClickListener(this);
+        virgula.setOnClickListener(this);
+        esquerda.setOnClickListener(this);
+        direita.setOnClickListener(this);
 
     }
 
@@ -101,6 +108,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             case R.id.zero: {
                 visor.setText(visor.getText().toString() + zero.getText());
+                break;
+            }
+            case R.id.virgula: {
+                visor.setText(visor.getText().toString() + virgula.getText());
+                break;
+            }
+            case R.id.esquerda: {
+                visor.setText(visor.getText().toString() + esquerda.getText());
+                break;
+            }
+            case R.id.direita: {
+                visor.setText(visor.getText().toString() + direita.getText());
                 break;
             }
             case R.id.correct: {

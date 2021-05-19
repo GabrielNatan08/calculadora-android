@@ -19,4 +19,7 @@
     <string name="igual">=</string>
     <string name="clean">ac</string>
     <string name="correct">c</string>
+    <string name="virgula">,</string>
+    <string name="esquerda">(</string>
+    <string name="direita">)</string>
 </resources>

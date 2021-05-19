@@ -8,9 +8,10 @@ public class Engine {
     public Engine() { }
 
     public String calc(String visor) {
-        Expression expression = new Expression(visor);
+        String novoVisor = visor.replaceAll(",", ".");
+        Expression expression = new Expression(novoVisor);
         result = String.valueOf(expression.calculate());
 
-        return result;
+        return result.replace(".", ",");
     }
 }
