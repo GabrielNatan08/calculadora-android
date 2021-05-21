@@ -1,5 +1,6 @@
 package br.com.gabriel.calculadora;
 
+//Aqui é realizada importação da lib resonsável pelos cálculos.
 import org.mariuszgromada.math.mxparser.*;
 
 public class Engine {
