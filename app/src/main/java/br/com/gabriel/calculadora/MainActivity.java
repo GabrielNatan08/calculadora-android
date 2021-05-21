@@ -3,6 +3,7 @@ package br.com.gabriel.calculadora;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +13,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button um, dois, soma, tres, quatro, cinco, seis, sete, oito, nove, zero;
     private Button virgula, esquerda, direita;
     private Button adicao, subtracao, multiplicacao, divisao;
-    private Button igual, correct, clean;
+    private Button igual, clean;
+    private ImageButton correct;
     private TextView visor;
 
     @Override
