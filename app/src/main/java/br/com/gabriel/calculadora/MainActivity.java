@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button um, dois, soma, tres, quatro, cinco, seis, sete, oito, nove, zero;
+    private Button um, dois, tres, quatro, cinco, seis, sete, oito, nove, zero;
     private Button virgula, esquerda, direita;
     private Button adicao, subtracao, multiplicacao, divisao;
     private Button igual, clean;
@@ -128,8 +128,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String view = visor.getText().toString();
                 if(view.equals(""))
                     break;
-                else
-                    visor.setText(view.substring(0, view.length() -1));
+                visor.setText(view.substring(0, view.length() -1));
                 break;
             }
             case R.id.clean: {
